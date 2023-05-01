@@ -1,0 +1,94 @@
+header{
+    background: url(../../../../Tokyo-accueil/assets/img/lake-biwa.jpg.jpg) center/cover;
+    height: 100vh;
+    margin-bottom: 60px;
+
+    nav{
+        background: $black1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: $white1;
+        font-family: $mont;
+        padding: 20px;
+        span{
+            height: 40px;
+            width: 40px;
+            i{
+                font-size: 2rem;
+            }
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            li{
+                padding: 10px 10px;
+                text-transform: uppercase;
+                font-size: 0.6rem;
+                letter-spacing: 2px;
+                border-right: 1px solid $white1;
+                cursor: pointer;
+                transition: 0.6s;
+                
+                &:hover{
+                    border-right: none;
+                    color: $pink1;
+                    border-bottom: 1px solid $pink1;
+                }
+
+            }
+        }
+        button{
+            background: transparent;
+            font-family: $redl;
+            color: $white1;
+            border: 1px solid $white1;
+            padding: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.6rem;
+            cursor: pointer;
+            transition: 0.6s;
+            &:hover{
+                color: $pink1;
+                border: 1px solid $pink1;
+                
+            }
+
+        }
+    }
+        .title-header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color:$white1;
+            font-family: $redb;
+            letter-spacing: 6px;
+            text-transform: uppercase;
+            padding: 80px;
+            
+            .title-overlay{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                background: rgba(0, 0, 0, 0.329);
+                box-shadow: #cccbcb 5px -5px 8px 3px;
+                padding: 40px ;
+                h1{
+                    font-family: $mont;
+                    border-bottom: 1px solid white;
+                    font-size: 6rem;
+                    letter-spacing: 20px;
+                }
+                p{
+                    padding-top: 50px;
+                    border-bottom: 1px solid white;
+                    padding-bottom: 10px;
+                }
+                
+            }
+        }
+}

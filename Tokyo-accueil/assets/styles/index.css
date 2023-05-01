@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "montserra";
+  src: url(../../../../Tokyo-accueil/assets/fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: "redhatb";
+  src: url(../../../../Tokyo-accueil/assets/fonts/RedHatDisplay-Bold.ttf);
+}
+@font-face {
+  font-family: "redhatl";
+  src: url(../../../../Tokyo-accueil/assets/fonts/RedHatDisplay-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserra;
+  background: rgb(19, 19, 19);
+}
+
+li {
+  list-style: none;
+}
+
+a, a:visited {
+  color: rgb(19, 19, 19);
+  text-decoration: none;
+}
+
+header {
+  background: url(../../../../Tokyo-accueil/assets/img/lake-biwa.jpg.jpg) center/cover;
+  height: 100vh;
+  margin-bottom: 60px;
+}
+header nav {
+  background: rgb(19, 19, 19);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(236, 235, 235);
+  font-family: montserra;
+  padding: 20px;
+}
+header nav span {
+  height: 40px;
+  width: 40px;
+}
+header nav span i {
+  font-size: 2rem;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav ul li {
+  padding: 10px 10px;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  border-right: 1px solid rgb(236, 235, 235);
+  cursor: pointer;
+  transition: 0.6s;
+}
+header nav ul li:hover {
+  border-right: none;
+  color: rgb(238, 145, 184);
+  border-bottom: 1px solid rgb(238, 145, 184);
+}
+header nav button {
+  background: transparent;
+  font-family: redhatl;
+  color: rgb(236, 235, 235);
+  border: 1px solid rgb(236, 235, 235);
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.6rem;
+  cursor: pointer;
+  transition: 0.6s;
+}
+header nav button:hover {
+  color: rgb(238, 145, 184);
+  border: 1px solid rgb(238, 145, 184);
+}
+header .title-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(236, 235, 235);
+  font-family: redhatb;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  padding: 80px;
+}
+header .title-header .title-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.329);
+  box-shadow: #cccbcb 5px -5px 8px 3px;
+  padding: 40px;
+}
+header .title-header .title-overlay h1 {
+  font-family: montserra;
+  border-bottom: 1px solid white;
+  font-size: 6rem;
+  letter-spacing: 20px;
+}
+header .title-header .title-overlay p {
+  padding-top: 50px;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+.section-1 {
+  background: url(../../../../Tokyo-accueil/assets/img/sky.jpg.jpg);
+  padding: 80px 0;
+}
+.section-1 .section-1-containers {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 10px;
+  width: 80%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.733);
+  padding: 40px 52px;
+  box-shadow: rgba(0, 0, 0, 0.4117647059) 6px -5px 13px 3px;
+}
+.section-1 .section-1-containers .text-sec1 {
+  padding: 20px 0;
+}
+.section-1 .section-1-containers .text-sec1 p {
+  width: 90%;
+  padding: 10px;
+}
+.section-1 .section-1-containers .info-containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(243, 199, 237);
+  box-shadow: rgba(0, 0, 0, 0.2117647059) 6px -5px 13px 3px;
+  padding: 30px;
+}
+.section-1 .section-1-containers .info-containers h2 {
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+.section-1 .section-1-containers .info-containers #carte-japon {
+  background: url(../../../../Tokyo-accueil/assets/img/Japan-PNG-Clipart.png) center/contain no-repeat;
+  height: 400px;
+  width: 90%;
+  margin: 0 auto;
+}/*# sourceMappingURL=index.css.map */
